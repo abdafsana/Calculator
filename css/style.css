@@ -1,5 +1,133 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.header-container {
+    width: 100%;
+    height: 80px;
+}
+
+.header-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 70dvh;
+}
+
+.main-header {
+    width: 60%;
+    height: 30%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+}
+
+.subtitle {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: #9F9F9F;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+
+.cards {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+.card1 {
+    width: 50%;
+}
+
+.card2 {
+    width: 50%;
+}
+
+.card-conventor {
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+
+.conventor {
+    width: 18%;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #C6C6C6;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.radius1 {
+    border-radius: 3px 0 0 3px;
+}
+
+.radius2 {
+    border-radius: 0px 3px 3px 0px;
+}
+
+.card-input {
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    width: 72%;
+    height: 150px;
+    padding: 10px;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.amount {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+    width: 100%;
+    height: 80%;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-family: "Roboto", sans-serif;
+}
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.rate {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.amount:focus-visible {
+    outline: none;
+}
+
+.amount::placeholder {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+}
+
+.conventor.active {
+    background-color: #833AE0;
+    color: #fff;
 }

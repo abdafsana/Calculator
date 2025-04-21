@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <!-- header section -->
+    <header>
+        <div class="header-container">
+            <img src="./image/header.png" alt="header image">
+        </div>
+    </header>
+    <main class="main">
+        <section class="main-header">
+            <h1 class="title">Конвертер валют онлайн</h1>
+        </section>
+        <section class="main-body">
+            <div class="cards">
+                <div class="card1">
+                    <div class="card-subtitle">
+                        <p class="subtitle">У меня есть </p>
+                        <div class="card-conventor">
+                            <div class="conventor radius1">
+                                <p class="conventor-text">
+                                    RUB
+                                </p>
+                            </div>
+                            <div class="conventor">
+                                <p class="conventor-text">
+                                    USD
+                                </p>
+                            </div>
+                            <div class="conventor">
+                                <p class="conventor-text">
+                                    EUR
+                                </p>
+                            </div>
+                            <div class="conventor radius2">
+                                <p class="conventor-text">
+                                    GBP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-input">
+                        <input type="number" class="amount no-spinner" placeholder="Meblegi daxil edin">
+                        <div class="rate">1 RUB = 0.0135 USD</div>
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="card-subtitle">
+                        <p class="subtitle">Хочу приобрести</p>
+                        <div class="card-conventor">
+                            <div class="conventor radius1">
+                                <p class="conventor-text">
+                                    RUB
+                                </p>
+                            </div>
+                            <div class="conventor">
+                                <p class="conventor-text">
+                                    USD
+                                </p>
+                            </div>
+                            <div class="conventor">
+                                <p class="conventor-text">
+                                    EUR
+                                </p>
+                            </div>
+                            <div class="conventor radius2">
+                                <p class="conventor-text">
+                                    GBP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-input">
+                        <input type="number" class="amount no-spinner" placeholder="Meblegi daxil edin">
+                        <div class="rate">1 RUB = 0.0135 USD</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/app.js"></script>
 </body>
+
 </html>
