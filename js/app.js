@@ -5,3 +5,4 @@ box.forEach(item => {
         item.classList.add('active');
     });
 });
+
