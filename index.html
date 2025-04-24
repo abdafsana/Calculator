@@ -14,7 +14,6 @@
 </head>
 
 <body>
-    <!-- header section -->
     <header>
         <div class="header-container">
             <img src="./image/header.png" alt="header image">
@@ -25,12 +24,13 @@
             <h1 class="title">Конвертер валют онлайн</h1>
         </section>
         <section class="main-body">
+            <div class="network-error" style="display: none;">İnternet bağlantısı yoxdur!</div>
             <div class="cards">
                 <div class="card1">
                     <div class="card-subtitle">
                         <p class="subtitle">У меня есть </p>
                         <div class="card-conventor">
-                            <div class="conventor radius1">
+                            <div class="conventor radius1 active">
                                 <p class="conventor-text">
                                     RUB
                                 </p>
@@ -53,8 +53,8 @@
                         </div>
                     </div>
                     <div class="card-input">
-                        <input type="number" class="amount no-spinner" placeholder="введите сумму">
-                        <div class="rate">1 RUB = 0.0135 USD</div>
+                        <input type="text" class="amount no-spinner" placeholder="введите сумму">
+                        <div class="rate">1 RUB = 0.01 USD</div>
                     </div>
                 </div>
                 <div class="card2">
@@ -66,7 +66,7 @@
                                     RUB
                                 </p>
                             </div>
-                            <div class="conventor">
+                            <div class="conventor active">
                                 <p class="conventor-text">
                                     USD
                                 </p>
@@ -84,8 +84,8 @@
                         </div>
                     </div>
                     <div class="card-input">
-                        <input type="number" class="amount no-spinner" placeholder="введите сумму">
-                        <div class="rate">1 RUB = 0.0135 USD</div>
+                        <input type="text" class="amount no-spinner" placeholder="введите сумму">
+                        <div class="rate">1 USD = 81.45 RUB</div>
                     </div>
                 </div>
             </div>

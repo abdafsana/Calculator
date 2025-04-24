@@ -1,0 +1,152 @@
+@media (max-width: 1024px) {
+    .main-header {
+        width: 80%;
+        height: 25%;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .cards {
+        width: 80%;
+    }
+
+    .card-input {
+        width: 85%;
+        height: 140px;
+    }
+
+    .amount {
+        font-size: 32px;
+    }
+
+    .amount::placeholder {
+        font-size: 14px;
+    }
+
+    .conventor {
+        font-size: 11px;
+        width: 20%;
+    }
+
+    .network-error {
+        width: 80%;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        height: 30px;
+    }
+
+    .main {
+        height: auto;
+        min-height: 100dvh;
+    }
+
+    .main-header {
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .cards {
+        width: 90%;
+        justify-content: space-between;
+    }
+
+    .card1,
+    .card2 {
+        width: 40%;
+    }
+
+
+    .conventor {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .card-input {
+        width: 100%;
+        height: 80px;
+    }
+
+    .amount {
+        font-size: 20px;
+    }
+
+    .amount::placeholder {
+        font-size: 12px;
+    }
+
+    .rate {
+        font-size: 12px;
+    }
+
+    .subtitle {
+        font-size: 13px;
+    }
+
+    .network-error {
+        width: 90%;
+        font-size: 12px;
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container {
+        height: 15px;
+    }
+
+    .main-header {
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .cards {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .card1,
+    .card2 {
+        width: 100%;
+    }
+
+    .card-input {
+        height: 100px;
+    }
+
+    .amount {
+        font-size: 24px;
+    }
+
+    .amount::placeholder {
+        font-size: 10px;
+    }
+
+    .rate {
+        font-size: 11px;
+    }
+
+    .subtitle {
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .network-error {
+        width: 95%;
+        font-size: 11px;
+        padding: 8px;
+    }
+}
